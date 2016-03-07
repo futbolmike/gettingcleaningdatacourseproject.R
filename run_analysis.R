@@ -54,10 +54,10 @@ retrievetables <- function (filename,cols = NULL){
   data
 }
 
-#run and check maketables
+#run and retrieves tables
 features <- retrievetables("features.txt")
 
-#read data and build database
+#reads data and builds the database
 getdata <- function(type, features){
   print(paste("Getting data", type))
   subject_data <- retrievetables(paste(type,"/","subject_",type,".txt",sep=""),"id")
