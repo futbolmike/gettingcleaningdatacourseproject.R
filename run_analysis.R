@@ -77,7 +77,7 @@ saveresults <- function (data,name){
   write.csv(data,file)
 }
 
-# required activities 
+# Objectives
 
 #1) Merges the training and the test sets to create one data set.
 library(plyr)
